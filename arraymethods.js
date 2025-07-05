@@ -89,4 +89,83 @@
 // })
 // console.log(new_array);
 
+// forEach Array method 
+// Method	Naya array?	Return value
+// forEach()	❌ Nahi	undefined
+// map()	✅ Haan	New transformed array
+// let array=[1,2,3,4,5,6,7,8]
+// array.forEach(element => {
+  
+//   console.log(element+"*2"+"="+`${element*2}`);
+  
+    
+// });
+// let array=[1,2,3,4,5,6,7,8]
+// array.forEach(element => {
+//     if(element%2==0){
+//         console.log(`${element}`+" "+"even number");
+        
+//     }
+//     else{
+//         console.log(`${element}`+" "+"odd")
+//     }
+    
+// });
+// let fruits = ["apple", "banana", "mango"];
+// fruits.forEach(element => {
+//     console.log("i like"+" "+`${element}`)
+// });
+// let names = ["Ali", "Fatima", "Zain"];
+// names.forEach((element)=>{
+//     console.log("welcome to"+""+` ${element}`)
+// })
+// find array method
+//  let array=[1,2,3,4,5,6,7,8]
+//  let find=array.find((value)=>{
+//     return value>5;
+//  })
+//  console.log(find)
+// flat array method
+// Method	New Array Return?	Description
+// flat()	✅ Haan	Nested array ko seedha karta hai
+
+
+// let array=[1,2,3,4,5,[6,7,8,9,10,[11,12,13,14,15]]]
+// console.log(array)
+
+// let flat=array.flat(2);
+// console.log(flat);
+// let arr = [1, 2, [3, [4, [5]]]];
+// let flat=arr.flat(3)
+// console.log(flat);
+// reduce array method
+// let array=[1,2,3,4,5,6,7,8];
+// let new_array=array.reduce((accu, current_value,index,array)=>{
+//      console.log(accu,current_value)
+//     return accu+current_value
+
+// },);
+// console.log(new_array);
+// let array=[1,2,3,4,5,6,7,8];
+// let result=array.reduce((accu,current_value,index,array)=>{
+//      return accu > current_value ? accu:current_value;
+   
+// })
+// console.log(result);
+
+// console.log(accu)
+// let str=["ali","ahmad","yasir"]
+// let result=str.reduce((acuu,current_value,index)=>{
+//     return acuu+current_value.length;
+// },0)
+// console.log(result);
+// let concatstr=["i","love","javascript"];
+// let check=concatstr.reduce((accu,value)=>{
+//    return accu+" "+value;
+// })
+// console.log(check);
+
+
+
+
 
